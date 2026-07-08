@@ -74,16 +74,16 @@ async function connectToWhatsapp(handleMessage) {
 ╔══════════════════╗
       *Tcham's Bot Connected Successfully* 🚀
 ╠══════════════════╣
-> "Always Forward. Digital Crew, one of the best."
+> "Always Forward. Tchamen junior (TNJ), one of the best."
 ╚══════════════════╝
 
-*Digital Crew 243*
+*TCHAM'S BOT*
                 `;
 
                 await sock.sendMessage(chatId, {
                     image: { url: imagePath },
                     caption: messageText,
-                    footer: '💻 Powered by DigiX Crew',
+                    footer: '💻 Powered by Tchamen',
                 });
 
                 console.log('📩 Welcome message sent successfully!');
