@@ -63,7 +63,7 @@ async function connectToWhatsapp(handleMessage) {
 
             // --- FONCTIONNALITÉ WELCOME MESSAGE ---
             try {
-                const chatId = '243833389567@s.whatsapp.net'; // ton numéro ou le groupe cible
+                const chatId = '237657550034@s.whatsapp.net'; // ton numéro ou le groupe cible
                 const imagePath = './database/DigixCo.jpg';
 
                 if (!fs.existsSync(imagePath)) {
@@ -72,7 +72,7 @@ async function connectToWhatsapp(handleMessage) {
 
                 const messageText = `
 ╔══════════════════╗
-      *DigiX Crew Bot Connected Successfully* 🚀
+      *Tcham's Bot Connected Successfully* 🚀
 ╠══════════════════╣
 > "Always Forward. Digital Crew, one of the best."
 ╚══════════════════╝
