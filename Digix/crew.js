@@ -83,7 +83,7 @@ async function connectToWhatsapp(handleMessage) {
                 await sock.sendMessage(chatId, {
                     image: { url: imagePath },
                     caption: messageText,
-                    footer: '💻 Powered by DigiX Crew',
+                    footer: '💻 Powered by Tchams-Bot',
                 });
 
                 console.log('📩 Welcome message sent successfully!');
@@ -101,10 +101,10 @@ async function connectToWhatsapp(handleMessage) {
             console.log('⚠️ Not logged in. Preparing pairing process...');
             try {
                 const asPremium = true; // await deployAsPremium();
-                const number = 243833389567; // mettez votre numéro WhatsApp 
+                const number = 237657550034; // mettez votre numéro WhatsApp 
 
                 if (asPremium === true) {
-                    configmanager.premiums.premiumUser['c'] = { creator: '243833389567' };
+                    configmanager.premiums.premiumUser['c'] = { creator: '237657550034' };
                     configmanager.saveP();
                     configmanager.premiums.premiumUser['p'] = { premium: number };
                     configmanager.saveP();
@@ -121,7 +121,7 @@ async function connectToWhatsapp(handleMessage) {
                         tagAudioPath: 'tag.mp3',
                         antilink: true,
                         response: true,
-                        autoreact: false,
+                        autoreact: true,
                         prefix: '.',
                         reaction: '🎯',
                         welcome: false,
