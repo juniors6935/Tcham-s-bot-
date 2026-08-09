@@ -11,7 +11,7 @@ async function getUserNumber() {
     return new Promise((resolve) => {
         const rl = readline.createInterface({
             input: process.stdin,
-            output: process.stdout,
+            output: process.stdout, 
         });
 
         rl.question('📲 Enter your WhatsApp number (with country code, e.g., 243xxxx): ', (number) => {
